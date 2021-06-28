@@ -25,7 +25,9 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "serve:ngshop": "nx serve ngshop --port 4000",
+    "serve:admin": "nx serve admin --port 4100"
   },
   "private": true,
   "dependencies": {
