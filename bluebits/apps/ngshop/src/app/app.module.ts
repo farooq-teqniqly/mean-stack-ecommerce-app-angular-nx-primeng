@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { AppRoutes } from './routes';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomePageComponent, ProductListComponent],
+  declarations: [AppComponent, HomePageComponent, ProductListComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
   providers: [],
   bootstrap: [AppComponent],

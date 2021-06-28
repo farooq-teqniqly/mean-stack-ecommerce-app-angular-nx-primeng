@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'bb-root',
+  selector: 'bbadmin-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
