@@ -8,10 +8,11 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
 import { AppRoutes } from './routes';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { UiModule } from '@bluebits/ui';
 
 @NgModule({
   declarations: [AppComponent, HomePageComponent, ProductListComponent, HeaderComponent, FooterComponent],
-  imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
+  imports: [BrowserModule, UiModule, RouterModule.forRoot(AppRoutes)],
   providers: [],
   bootstrap: [AppComponent],
 })
